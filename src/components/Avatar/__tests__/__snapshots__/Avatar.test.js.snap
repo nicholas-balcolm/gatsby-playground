@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`the avatar component given a user name should display the users avatar 1`] = `
+<div
+  className="avatar"
+>
+  <span
+    className="user-name"
+  >
+    dfederspiel
+  </span>
+  <a
+    href="https://github.com/dfederspiel"
+  >
+    <img
+      alt="photo of "
+      className="commentPhoto widget"
+      height={200}
+      src="https://avatars.githubusercontent.com/dfederspiel?s=200"
+      width={200}
+    />
+    <br />
+  </a>
+</div>
+`;
+
+exports[`the avatar component renders correctly 1`] = `
+<div
+  className="avatar"
+>
+  <span
+    className="user-name"
+  >
+    dfederspiel
+  </span>
+  <a
+    href="https://github.com/dfederspiel"
+  >
+    <img
+      alt="photo of "
+      className="commentPhoto widget"
+      height={200}
+      src="https://avatars.githubusercontent.com/dfederspiel?s=200"
+      width={200}
+    />
+    <br />
+  </a>
+</div>
+`;

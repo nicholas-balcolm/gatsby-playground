@@ -3,6 +3,7 @@ import g from 'glamorous'
 import { css } from "glamor"
 import Link from 'gatsby-link'
 import { rhythm } from '../utils/typography'
+//import 'styles.ss'
 
 const linkStyle = css({ float: 'right' })
 
@@ -22,8 +23,8 @@ export default ({ children }) =>
                 Pandas Eating Lots
             </g.H3>
         </Link>
-        <Link className={linkStyle} to={`/about/`}>
-            About
+        <Link className={linkStyle} to={`/sitemap/`}>
+            Sitemap
         </Link>
         {children()}
     </g.Div>
