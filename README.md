@@ -1,2 +1,6 @@
-# gatsby-starter-hello-world
-Starter with the bare essentials needed for a Gatsby site
+
+```
+npm install
+npm install --global gatsby-cli
+gatsby develop
+```
